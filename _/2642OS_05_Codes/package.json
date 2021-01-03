@@ -1,0 +1,22 @@
+{
+  "name": "mycafe-api",
+  "version": "0.1.0",
+  "description": "A sample app for BDD with JS (HAL based web API)",
+  "scripts": {
+    "test": "mocha -u bdd -R spec -t 500 --recursive"
+  },
+  "author": "Enrique Amodeo",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.8.7",
+    "q": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "chai-as-promised": "^4.1.1",
+    "mocha": "^1.21.4",
+    "request": "^2.40.0",
+    "sinon": "^1.10.3",
+    "sinon-chai": "^2.5.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "replay-record-sample",
+  "version": "0.1.0",
+  "description": "A sample project of how to test a third party API",
+  "main": "index.js",
+  "scripts": {
+    "record": "REPLAY=record mocha -u bdd -R spec -t 10000 --recursive",
+    "test": "mocha -u bdd -R spec -t 100 --recursive"
+  },
+  "author": "Enrique Amodeo",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "chai-as-promised": "^4.1.1",
+    "mocha": "^2.0.1",
+    "replay": "^1.11.0"
+  },
+  "dependencies": {
+    "q": "^1.1.2",
+    "twitter-js-client": "0.0.5"
+  }
+}

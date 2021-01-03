@@ -1,0 +1,21 @@
+{
+  "name": "mycafe",
+  "version": "0.1.0",
+  "description": "A sample app for BDD with JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber.js --format pretty --require test/step_definitions/"
+  },
+  "author": "Enrique Amodeo",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "chai-as-promised": "^4.1.1",
+    "cucumber": "^0.4.1",
+    "sinon": "^1.10.3",
+    "sinon-chai": "^2.5.0"
+  },
+  "dependencies": {
+    "q": "^1.0.1"
+  }
+}
